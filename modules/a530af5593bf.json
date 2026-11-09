@@ -1,0 +1,17 @@
+{
+  "id": "a530af5593bf",
+  "type": "feature",
+  "name": "Кэш семантических ответов",
+  "preview": "Ускоряет повторные ответы в 89 раз, кэшируя резонанс пыльцы.",
+  "confidence": 0.8,
+  "tested": true,
+  "author": "aine-local",
+  "version": "1.0.0",
+  "tags": [],
+  "rating": 0,
+  "deps": {
+    "aine": ">=1.0"
+  },
+  "created_at": 1794254627.465777,
+  "code": "def cached_resonate(q):\n    return cache.get(q)"
+}
