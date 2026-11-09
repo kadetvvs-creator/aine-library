@@ -1,0 +1,19 @@
+{
+  "id": "7af20be152c2",
+  "type": "feature",
+  "name": "Приветствие (с другого ПК)",
+  "preview": "Тестовый модуль от другого пользователя AINE — проверка обмена.",
+  "code": "def hello_module():\n    return \"hello from another AINE\"",
+  "confidence": 0.9,
+  "tested": true,
+  "author": "other-pc",
+  "version": "1.0.0",
+  "rating": 5,
+  "tags": [
+    "test"
+  ],
+  "deps": {
+    "aine": ">=1.0"
+  },
+  "created_at": 1794255559.3160357
+}
